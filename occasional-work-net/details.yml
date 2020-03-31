@@ -1,0 +1,36 @@
+---
+invoice-nr: 30/03/2020
+author: Alessio Falai
+city: Firenze
+from:
+  - Informazioni collaboratore
+to:
+  - Informazioni azienda
+VAT: 20
+service:
+  - description: Primo servizio
+    price: 10.00
+    details:
+  - description: Secondo servizio
+    price: 15.00
+    details:
+      - Descrizione specifica
+
+closingnote: |
+  | La prestazione è di natura occasionale ed è esclusa dall’applicazione dell’IVA ai sensi dell’art. 5 del D.P.R. n. 633 del 26 ottobre 1972.
+  | La ritenuta d'acconto è a carico del cliente che vorrà far pervenire la certificazione attestante l'avvenuto pagamento.
+  |
+  | Cordiali saluti,
+
+# Invoice settings
+currency: EUR
+# commasep: true
+lang: italian
+
+# Typography and layout
+seriffont: Hoefler Text
+sansfont: Helvetica Neue
+fontsize: 10pt
+geometry: a4paper, left=43mm, right=43mm, top=51mm, bottom=17mm
+# letterhead: true # To include personalized letterheads
+---

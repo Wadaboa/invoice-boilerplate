@@ -1,5 +1,5 @@
 TEX = pandoc
-src = template.tex details.yml
+src = $(SRC)/template.tex $(SRC)/.details.yml
 FLAGS = --pdf-engine=xelatex
 
 output.pdf : $(src)
