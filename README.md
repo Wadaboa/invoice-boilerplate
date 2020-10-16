@@ -19,3 +19,5 @@ This will produce an `output.pdf` file in the root folder of the repository, whi
 ## My settings
 
 - **`net-prices`**: Set to `true` when prices are represented as net prices. Comment it out to work with gross prices.
+- **`invoice-nr`**: Represents the invoice number instead of the default invoice date.
+- **`invoice-date`**: Represents the standard invoice date.

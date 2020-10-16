@@ -75,8 +75,8 @@ $endif$
 \hypersetup
 {
   pdfauthor={$author$},
-  pdfsubject=Invoice Nr. $invoice-nr$,
-  pdftitle=Invoice Nr. $invoice-nr$,
+  pdfsubject=Ricevuta \#$invoice-nr$ del $invoice-date$,
+  pdftitle=Ricevuta \#$invoice-nr$ del $invoice-date$,
   linkcolor=blue,
   citecolor=blue,
   filecolor=black,
@@ -115,7 +115,7 @@ $endfor$
 \vspace{1em}
 
 
-\section*{\textsc{Ricevuta} \textsc{\#$invoice-nr$}}
+\section*{\textsc{Ricevuta} \textsc{\#$invoice-nr$} del $invoice-date$}
 \footnotesize
 \newcounter{pos}
 \setcounter{pos}{0}
